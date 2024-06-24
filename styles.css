@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(
+		133deg,
+		rgba(209, 247, 247, 0.5) 0%,
+		rgba(196, 220, 249, 0.7) 44%
+	);
+
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 100px auto;
+	padding: 10px;
+	gap: 20px;
+}
+
+.box {
+	display: inline-block;
+	width: 500px;
+	height: 130px;
+	box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	border-radius: 8px;
+	position: relative;
+}
+
+.text-box {
+	height: 100%;
+	padding: 15px;
+}
+
+.sporty h2 {
+	color: red;
+	margin-bottom: 10px;
+}
+
+.casual h2 {
+	color: blue;
+	margin-bottom: 8px;
+}
+
+.formal h2 {
+	color: darkslategrey;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 0.95rem;
+}
+
+.btn {
+	margin-top: 10px;
+
+	width: 120px;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 0.8rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.sporty .btn {
+	background-color: red;
+}
+.casual .btn {
+	background-color: blue;
+}
+.formal .btn {
+	background-color: darkslategray;
+}
+
+img {
+	width: 150px;
+	z-index: 1;
+	position: absolute;
+	right: 1%;
+	overflow: hidden;
+	top: -8%;
+}
